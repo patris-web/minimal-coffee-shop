@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Minimal Coffee Shop</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <header class="site-header" id="siteHeader">
+    <div class="header-shell">
+      <nav class="nav-desktop">
+        <div class="nav-group left">
+          <a class="nav-link" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+        </div>
+
+        <a href="#home" class="logo">Maison Café</a>
+
+        <div class="nav-group right">
+          <a class="nav-link" href="#story">Story</a>
+          <a class="nav-link" href="#gallery">Gallery</a>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span>
+        </button>
+      </nav>
+    </div>
+
+    <div class="mobile-panel" id="mobilePanel">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#story">Story</a>
+      <a href="#gallery">Gallery</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-slider">
+        <div class="hero-slide active">
+          <img src="assets/images/interior1.jpg" alt="Coffee shop interior" />
+        </div>
+        <div class="hero-slide">
+          <img src="assets/images/interior2.jpg" alt="Barista preparing coffee" />
+        </div>
+        <div class="hero-slide">
+          <img src="assets/images/interior3.jpg" alt="Minimal coffee table setup" />
+        </div>
+      </div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <div class="container hero-inner">
+          <div class="hero-title-wrap">
+            <p class="hero-kicker fade-up">Minimal Coffee Experience</p>
+
+            <div class="reveal-clip" id="heroTitleReveal">
+              <h1 class="hero-title">Welcome to our coffee shop</h1>
+            </div>
+          </div>
+
+          <div class="hero-note-wrap">
+            <div class="reveal-clip" id="heroNoteReveal">
+              <p class="hero-note">
+                Where coffee and dreams meet in perfect balance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-copy">
+            <span class="section-tag fade-up">Our Idea</span>
+
+            <div class="reveal-clip">
+              <h2>Built for slow mornings, thoughtful cups, and quiet moments.</h2>
+            </div>
+
+            <p class="fade-up">
+              Maison Café began with a simple idea: to create a space where coffee
+              feels less like a routine and more like a small daily ritual. A place
+              with soft light, natural textures, and a calm atmosphere that invites
+              people to pause.
+            </p>
+
+            <p class="fade-up">
+              From the first roast to the final pour, every detail was imagined to
+              feel warm, balanced, and intentional. The menu, the music, the scent
+              of fresh beans, even the pace of the space — everything works together
+              to offer a gentle kind of luxury.
+            </p>
+
+            <p class="fade-up">
+              More than a coffee shop, it is a setting for conversations, ideas,
+              quiet work, and moments that deserve to be savored slowly.
+            </p>
+          </div>
+
+          <div class="about-visual reveal-clip-up">
+            <img src="assets/images/interior7.jpg" alt="Coffee shop atmosphere" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section story" id="story">
+      <div class="container">
+        <div class="story-head">
+          <span class="section-tag" style="color:#C5D89D;">Coffee Story</span>
+
+          <div class="reveal-clip">
+            <h2 class="script">From bean to ritual</h2>
+          </div>
+
+          <p class="fade-up">
+            Coffee carries a story of origin, patience, and craft. Each cup begins
+            far beyond the city, in landscapes shaped by climate, soil, and careful hands.
+          </p>
+        </div>
+
+        <div class="story-grid">
+          <article class="story-card">
+            <h3>Origin</h3>
+            <p>
+              Every bean starts with its own geography. Altitude, season, and soil
+              create subtle differences in aroma, body, and character that make each
+              harvest feel distinct.
+            </p>
+          </article>
+
+          <article class="story-card ">
+            <h3>Roasting</h3>
+            <p>
+              Roasting is where the hidden profile begins to unfold. Heat, time, and
+              precision turn a green seed into layered notes of chocolate, fruit,
+              spice, and depth.
+            </p>
+          </article>
+
+          <article class="story-card ">
+            <h3>Ritual</h3>
+            <p>
+              The final cup is more than taste. It is texture, aroma, warmth, and the
+              pause it creates. Coffee becomes a small ceremony woven into everyday life.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="gallery-intro">
+          <span class="section-tag fade-up">Gallery</span>
+
+          <div class="reveal-clip">
+            <h2>Inside the space</h2>
+          </div>
+
+          <p class="fade-up">
+            A quiet visual walk through the mood of the shop. On desktop, this section
+            stays pinned while the gallery moves horizontally as the visitor scrolls.
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery-pin-wrap" id="galleryPin">
+        <div class="gallery-track" id="galleryTrack">
+          <div class="gallery-item">
+            <img src="assets/images/interior1.jpg" alt="Coffee shop gallery image 1" data-title="Warm Light" />
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/interior4.jpg" alt="Coffee shop gallery image 2" data-title="Slow Mornings" />
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/interior2.jpg" alt="Coffee shop gallery image 3" data-title="Roasted Notes" />
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/interior3.jpg" alt="Coffee shop gallery image 4" data-title="Quiet Corners" />
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/interior6.jpg" alt="Coffee shop gallery image 5" data-title="Perfect Balance" />
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/interior1.jpg" alt="Coffee shop gallery image 1" data-title="Warm Light" />
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/interior4.jpg" alt="Coffee shop gallery image 2" data-title="Slow Mornings" />
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/interior2.jpg" alt="Coffee shop gallery image 3" data-title="Roasted Notes" />
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/interior3.jpg" alt="Coffee shop gallery image 4" data-title="Quiet Corners" />
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/interior6.jpg" alt="Coffee shop gallery image 5" data-title="Perfect Balance" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-left">
+          <div class="footer-logo">Maison Café</div>
+        </div>
+
+        <div class="footer-info">
+          <p>24 Green Street, Athens</p>
+          <p><a href="tel:+302100000000">+30 210 000 0000</a></p>
+          <p><a href="mailto:hello@maisoncafe.com">hello@maisoncafe.com</a></p>
+          <p><a href="#">Instagram</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
