@@ -5,6 +5,10 @@ The project focuses on clean typography, elegant layout and smooth scroll-based 
 
 The design follows a minimal aesthetic inspired by modern Nordic coffee brands.
 
+## Live Demo
+
+https://patris-web.github.io/minimal-coffee-shop/
+
 ---
 
 ## ✨ Features
